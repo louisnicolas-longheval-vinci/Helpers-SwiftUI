@@ -1,5 +1,5 @@
 
-# Helpers
+# Helpers for SwiftUI
 
 A collection of SwiftUI utility components designed to enhance your mobile applications with engaging UI effects and functionalities.
 
