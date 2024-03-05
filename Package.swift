@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "Helpers",
-            targets: ["ExpandingGradient", "PressAndHoldButton"]),
+            targets: ["ExpandingGradient", "PressAndHoldButton", "PrivacyLabels"]),
     ],
     targets: [
         .target(
@@ -17,6 +17,9 @@ let package = Package(
         .target(
             name: "PressAndHoldButton",
             dependencies: []),
+		.target(
+			name: "PrivacyLabels",
+			dependencies: []),
     ]
 )
 
